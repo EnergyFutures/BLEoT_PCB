@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4925,13 +4925,16 @@ Standard A4 size frame in Landscape</description>
 <text x="-35.56" y="17.78" size="1.778" layer="91">NC</text>
 <text x="-71.12" y="25.4" size="1.778" layer="91">USE INTERNAL PULLUP</text>
 <text x="-71.12" y="22.86" size="1.778" layer="91">USE INTERNAL PULLUP</text>
-<text x="-48.26" y="33.02" size="1.778" layer="91">LIGHT</text>
-<text x="-38.1" y="91.44" size="1.778" layer="91">TEMP</text>
-<text x="121.92" y="147.32" size="1.778" layer="91">BATT</text>
+<text x="-48.26" y="33.02" size="2.54" layer="91">LIGHT</text>
+<text x="-38.1" y="91.44" size="2.54" layer="91">TEMPERATURE</text>
+<text x="121.92" y="147.32" size="2.54" layer="91">BATT</text>
 <text x="-66.04" y="119.38" size="1.778" layer="91">HIGH DRIVE</text>
 <text x="-53.34" y="111.76" size="1.778" layer="91">USE INTERNAL PULLUP</text>
 <text x="-5.08" y="111.76" size="1.778" layer="91">USE INTERNAL PULLUP</text>
-<text x="-63.5" y="139.7" size="1.778" layer="91">HUMIDITY+TEMP</text>
+<text x="-63.5" y="139.7" size="2.54" layer="91">HUMIDITY+TEMP</text>
+<text x="154.94" y="15.24" size="2.54" layer="91">MOUNTHOLES</text>
+<text x="68.58" y="144.78" size="2.54" layer="91">MOTION</text>
+<text x="30.48" y="-15.24" size="2.54" layer="91">PROG HEADER</text>
 </plain>
 <instances>
 <instance part="ANT" gate="G$1" x="149.86" y="91.44"/>
@@ -4975,8 +4978,8 @@ Standard A4 size frame in Landscape</description>
 <instance part="JP1" gate="G$1" x="58.42" y="-12.7" rot="MR90"/>
 <instance part="PIR" gate="G$1" x="60.96" y="134.62"/>
 <instance part="SUPPLY15" gate="GND" x="93.98" y="132.08" rot="R90"/>
-<instance part="U$6" gate="G$1" x="12.7" y="149.86"/>
-<instance part="U$7" gate="G$1" x="30.48" y="149.86"/>
+<instance part="U$6" gate="G$1" x="157.48" y="10.16"/>
+<instance part="U$7" gate="G$1" x="175.26" y="10.16"/>
 <instance part="SW1" gate="G$1" x="17.78" y="-2.54"/>
 <instance part="SUPPLY16" gate="GND" x="5.08" y="-2.54" rot="R270"/>
 <instance part="SUPPLY17" gate="GND" x="76.2" y="116.84" rot="R180"/>
