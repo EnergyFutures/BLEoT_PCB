@@ -5041,10 +5041,6 @@ Standard A4 size frame in Landscape</description>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<wire x1="147.32" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BALUN" gate="G$1" pin="GND1"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="132.08" y1="91.44" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
@@ -5092,6 +5088,10 @@ Standard A4 size frame in Landscape</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
 <junction x="76.2" y="114.3"/>
+</segment>
+<segment>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<wire x1="147.32" y1="144.78" x2="139.7" y2="144.78" width="0.1" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
