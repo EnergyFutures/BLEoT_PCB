@@ -154,18 +154,15 @@
 </layers>
 <board>
 <plain>
-<text x="34.169" y="26.159" size="1.6" layer="21" rot="R180">BLEoT</text>
 <text x="35.3906" y="11.5918" size="1.27" layer="21" rot="R90.2">ITU 4D21
 V.1.0</text>
 <text x="26.517" y="3.0598" size="0.8128" layer="21" rot="R39.1">GND VCC DIO SCL</text>
 <wire x1="12" y1="-0.5" x2="29" y2="-0.5" width="0.2032" layer="20"/>
 <wire x1="29" y1="-0.5" x2="37" y2="6.6802" width="0.2032" layer="20"/>
-<wire x1="39.9" y1="26.5" x2="4.2" y2="26.5" width="0.2032" layer="20"/>
+<wire x1="37" y1="26.5" x2="4.2" y2="26.5" width="0.2032" layer="20"/>
 <wire x1="4.2" y1="26.5" x2="4.2" y2="7.3" width="0.2032" layer="20"/>
 <wire x1="4.2" y1="7.3" x2="12" y2="-0.5" width="0.2032" layer="20"/>
-<wire x1="39.9" y1="26.5" x2="39.9" y2="23" width="0.2032" layer="20"/>
-<wire x1="39.9" y1="23" x2="37" y2="23" width="0.2032" layer="20"/>
-<wire x1="37" y1="23" x2="37" y2="6.7" width="0.2032" layer="20"/>
+<wire x1="37" y1="26.5" x2="37" y2="6.7" width="0.2032" layer="20"/>
 </plain>
 <libraries>
 <library name="NordicSemi">
@@ -1731,8 +1728,8 @@ design rules under a new name.</description>
 <element name="CRST1" library="NordicSemi" package="CRYSTAL16MHZ" value="16MHz" x="21.808" y="21.4826" smashed="yes" rot="R139.8">
 <attribute name="NAME" x="23.9082375" y="25.549421875" size="1.016" layer="21" rot="R180"/>
 </element>
-<element name="ANT" library="NordicSemi" package="2450AT18B100" value="ANTENA-2450AT" x="37.0254" y="24.7956" smashed="yes">
-<attribute name="NAME" x="33.5174" y="23.6508" size="0.8128" layer="25" rot="R180"/>
+<element name="ANT" library="NordicSemi" package="2450AT18B100" value="ANTENA-2450AT" x="34.1254" y="24.8956" smashed="yes">
+<attribute name="NAME" x="36.2174" y="22.7508" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="U$4" library="NordicSemi" package="QFN48" value="NRF51822" x="19.09" y="14.44" smashed="yes"/>
 <element name="TSL2561" library="microbuilder" package="TSL2561_FN" value="LIGHT_TSL2561" x="14.4626" y="4.5412" smashed="yes">
@@ -1824,7 +1821,7 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="26.035" y1="17.78" x2="26.116" y2="17.8672" width="0.2032" layer="1"/>
 <wire x1="26.035" y1="17.78" x2="25.99419375" y2="17.745378125" width="0.2032" layer="1"/>
-<via x="28.7972" y="9.0332" extent="1-16" drill="0.6"/>
+<via x="27.7972" y="9.0332" extent="1-16" drill="0.6"/>
 <via x="10.078" y="13.9368" extent="1-16" drill="0.6"/>
 <via x="27.7664" y="21.626" extent="1-16" drill="0.6"/>
 <via x="13.978" y="14.0368" extent="1-16" drill="0.6"/>
@@ -1931,10 +1928,11 @@ design rules under a new name.</description>
 <wire x1="25.3238" y1="15.5956" x2="25.3746" y2="15.5956" width="1.27" layer="1"/>
 <wire x1="25.3746" y1="15.5956" x2="24.7806" y2="15.5194" width="0.3048" layer="1"/>
 <wire x1="24.7806" y1="15.5194" x2="24.78" y2="15.647" width="0.3048" layer="1"/>
-<wire x1="27.934" y1="15.5956" x2="28.534" y2="15.634" width="1.27" layer="1"/>
-<wire x1="28.534" y1="15.634" x2="35.3" y2="22.6" width="1.27" layer="1"/>
-<wire x1="35.3" y1="22.6" x2="35.3" y2="25.0702" width="1.27" layer="1"/>
-<wire x1="35.3" y1="25.0702" x2="35.3254" y2="24.7956" width="1.27" layer="1"/>
+<wire x1="27.934" y1="15.5956" x2="28.554" y2="15.584" width="1.27" layer="1"/>
+<wire x1="28.554" y1="15.584" x2="28.754" y2="15.584" width="1.27" layer="1"/>
+<wire x1="28.754" y1="15.584" x2="32.6" y2="19.5" width="1.27" layer="1"/>
+<wire x1="32.6" y1="19.5" x2="32.6" y2="25.1702" width="1.27" layer="1"/>
+<wire x1="32.6" y1="25.1702" x2="32.4254" y2="24.8956" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$4" pad="30"/>
@@ -1947,7 +1945,7 @@ design rules under a new name.</description>
 <wire x1="24.28" y1="13.727" x2="24.5224" y2="13.4846" width="0.3048" layer="1"/>
 <wire x1="22.26" y1="14.24" x2="23.2504" y2="14.24" width="0.2032" layer="1"/>
 <wire x1="23.2504" y1="14.24" x2="23.749" y2="13.7414" width="0.2032" layer="1"/>
-<wire x1="23.749" y1="13.7414" x2="24.2656" y2="13.7414" width="0.2032" layer="1"/>
+<wire x1="23.749" y1="13.7414" x2="24.2656" y2="13.7414" width="0.254" layer="1"/>
 <wire x1="24.2656" y1="13.7414" x2="24.28" y2="13.727" width="0.2032" layer="1"/>
 </signal>
 <signal name="AIN2">

@@ -160,16 +160,10 @@
 <description>&lt;b&gt;Miniatur-Leistungsrelais&lt;/b&gt; 1 Wechsler&lt;p&gt;
 Distributor: Conrad Electronic&lt;br&gt;
 Source: http://www2.produktinfo.conrad.com/datenblaetter/500000-524999/504389-da-01-de-NETZRELAIS_FTR-K1CK024W1XUM_16A_250VAC.pdf</description>
-<wire x1="-16.245" y1="8.79" x2="16.34" y2="8.79" width="0.2032" layer="21"/>
-<wire x1="16.34" y1="8.79" x2="16.34" y2="-7.52" width="0.2032" layer="21"/>
-<wire x1="16.34" y1="-7.52" x2="-16.245" y2="-7.52" width="0.2032" layer="21"/>
-<wire x1="-16.245" y1="-7.52" x2="-16.245" y2="8.79" width="0.2032" layer="21"/>
 <pad name="1" x="-12" y="-5.75" drill="1.55" diameter="1.9" shape="long"/>
 <pad name="2" x="10" y="-5.75" drill="1.55" diameter="1.9" shape="long"/>
 <pad name="3" x="13.8" y="6.25" drill="1.55" diameter="1.9" shape="long" rot="R90"/>
 <pad name="4" x="-13.8" y="6.25" drill="1.55" diameter="1.9" shape="long" rot="R90"/>
-<text x="-17.9" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.295" y="4.445" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-17.78" y1="10.16" x2="17.78" y2="10.16" width="0.127" layer="51"/>
 <wire x1="17.78" y1="10.16" x2="17.78" y2="-8.89" width="0.127" layer="51"/>
 <wire x1="17.78" y1="-8.89" x2="-17.78" y2="-8.89" width="0.127" layer="51"/>
@@ -197,16 +191,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/500000-524999/504389-da
 <pad name="AC/N" x="0" y="-0.05" drill="1.1" diameter="1.9304" shape="long"/>
 <pad name="+V" x="38.5" y="2.75" drill="1.1" diameter="1.9304" shape="long"/>
 <pad name="-V" x="38.5" y="10.75" drill="1.1" diameter="1.9304" shape="long"/>
-<wire x1="-3.4" y1="14.2" x2="41.9" y2="14.2" width="0.127" layer="21"/>
-<wire x1="41.9" y1="14.2" x2="41.95" y2="14.2" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-11.2" x2="42.15" y2="-11.2" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="14.2" x2="-3.4" y2="-11.2" width="0.127" layer="21"/>
-<wire x1="41.95" y1="14.2" x2="42.15" y2="14.2" width="0.127" layer="21"/>
-<wire x1="42.15" y1="14.2" x2="42.15" y2="-11.2" width="0.127" layer="21"/>
-<text x="33.1" y="10.1" size="1.27" layer="21">-V</text>
-<text x="33.2" y="2.2" size="1.27" layer="21">+V</text>
-<text x="14" y="9.6" size="1.27" layer="25">&gt;NAME</text>
-<text x="14.3" y="-9.8" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-4.2" y1="15.1" x2="43.1" y2="15.1" width="0.127" layer="51"/>
 <wire x1="43.1" y1="15.1" x2="43.1" y2="-12.4" width="0.127" layer="51"/>
 <wire x1="43.1" y1="-12.4" x2="-4.2" y2="-12.4" width="0.127" layer="51"/>
@@ -7491,9 +7475,9 @@ COLD JUNCTION</text>
 <label x="127" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FTR-K3AB" gate="G$1" pin="4"/>
-<wire x1="-43.18" y1="20.32" x2="-27.94" y2="20.32" width="0.1524" layer="91"/>
-<label x="-35.56" y="20.32" size="1.778" layer="95"/>
+<pinref part="FTR-K3AB" gate="G$1" pin="3"/>
+<wire x1="-43.18" y1="10.16" x2="-27.94" y2="10.16" width="0.1524" layer="91"/>
+<label x="-35.56" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AC/LOUT" class="1">
@@ -7503,9 +7487,9 @@ COLD JUNCTION</text>
 <label x="-58.42" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FTR-K3AB" gate="G$1" pin="3"/>
-<wire x1="-43.18" y1="10.16" x2="-27.94" y2="10.16" width="0.1524" layer="91"/>
-<label x="-35.56" y="10.16" size="1.778" layer="95"/>
+<pinref part="FTR-K3AB" gate="G$1" pin="4"/>
+<wire x1="-43.18" y1="20.32" x2="-27.94" y2="20.32" width="0.1524" layer="91"/>
+<label x="-35.56" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AC/N" class="1">
